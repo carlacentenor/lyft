@@ -1,3 +1,363 @@
 /*
  * Estilos de tu proyecto
  */
+ /*COMPARTIDAS*/
+
+ * {
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: normal;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ /*clases*/
+
+ .list1 {
+   list-style: none;
+ }
+
+ .white {
+   color: white;
+ }
+
+ .purple {
+   color: #352384;
+ }
+
+ .gray {
+   color: #8995AA;
+ }
+
+ .inline-block {
+   display: inline-block;
+   vertical-align: top;
+ }
+
+ .bar {
+   margin-top: 37px;
+ }
+
+ .fz16 {
+   font-size: 16px;
+ }
+
+ .fz20 {
+   font-size: 1.125rem;
+ }
+
+ .fz28 {
+   font-size: 28px;
+ }
+
+ .fz29 {
+   font-size: 40px;
+ }
+
+ .padtop10 {
+   padding-top: 10px;
+ }
+
+ .padtop16 {
+   padding-top: 15px;
+ }
+
+ .padtop30 {
+   padding-top: 30px;
+ }
+
+ .padtop70 {
+   padding-top: 70px;
+ }
+
+ .padrig260 {
+   padding-right: 260px;
+ }
+
+ .padrig44 {
+   padding-right: 44px;
+ }
+
+ .padrig22 {
+   padding-right: 22px;
+ }
+
+ .padlef20 {
+   padding-left: 20px;
+ }
+
+ .padlef100 {
+   padding-left: 100px;
+ }
+
+ .padlef142 {
+   padding-left: 142px;
+ }
+
+ .padbot60 {
+   padding-bottom: 60px;
+ }
+
+ .uppercase {
+   text-transform: uppercase;
+ }
+
+ .bolder {
+   font-weight: 900;
+ }
+
+ /*........................ESPECIFICAS........................... */
+
+ /*..........cabecera(transparent)............*/
+
+ header {
+   width: 100%;
+   height: 118px;
+   background-color: #270F40;
+   position: fixed;
+   z-index: 1000;
+ }
+
+ .lift-white {
+   width: 67px;
+   height: 47px;
+   padding-top: 34px;
+   padding-right: 655px;
+   padding-left: 86px;
+ }
+
+ ul li button {
+   padding: 13px 19px;
+   background-color: #230E3A;
+   border-style: solid;
+   border-width: 0.5px;
+   border-color: white;
+   border-radius: 10px;
+ }
+
+ /*..............sign up...............*/
+
+ .hero {
+   width: 100%;
+   height: 623.25px;
+ }
+
+ .box1 {
+   box-sizing: border-box;
+   position: absolute;
+   top: 118px;
+   left: 809px;
+   width: 540px;
+   height: 425px;
+   background-color: white;
+   padding-top: 60px;
+   padding-left: 65px;
+   z-index: 9px;
+ }
+
+ .phone-number {
+   padding-bottom: 10px;
+   border-style: none;
+   border-bottom-style: solid;
+   border-color: #352384;
+ }
+
+ /*.............publicidad..............*/
+
+ .box2 {
+   position: absolute;
+   top: 590px;
+   width: 100%;
+   height: 582px;
+   background: linear-gradient(#6a1b83, #2B1E66);
+   z-index: 9px;
+ }
+
+ .phone {
+   width: 435px;
+   height: 480px;
+ }
+
+ button {
+   padding: 13px 19px;
+   background-color: #FF00BF;
+   border-style: solid;
+   border-width: 0.5px;
+   border-color: white;
+   border-radius: 10px;
+ }
+
+ /***************************VIDEOS******PARTE ---- CARLA************************/
+
+ .boxvideo {
+   position: relative;
+   top: 545px;
+   overflow: auto;
+   height: 498px;
+   margin-left: 0px;
+   width: 100%;
+ }
+
+ .boxvideo2 {
+   position: relative;
+   top: 537px;
+   overflow: auto;
+   height: 494px;
+   margin-left: 0px;
+   width: 100%;
+ }
+
+ .video {
+   margin-left: 3px;
+ }
+
+ .boxvideo3 {
+   position: relative;
+   top: 535px;
+   overflow: auto;
+   height: 498px;
+   margin-left: 0px;
+   width: 100%;
+ }
+
+ .texto-video {
+   width: 300px;
+   font-family: 'Montserrat', sans-serif;
+   text-align: justify;
+   padding: 0;
+   margin: 70px 70px 170px 70px;
+ }
+
+ .texto-video, .video {
+   float: left;
+ }
+
+ .texto-video h3 {
+   font-size: 14px;
+   margin-top: 30px;
+   font-weight: normal;
+ }
+
+ .texto-video h2 {
+   text-transform: uppercase;
+   font-weight: 800;
+   margin: 0;
+ }
+
+ .texto-video h5 {
+   font-size: 8px;
+   text-transform: uppercase;
+   margin-bottom: 0
+ }
+
+ /********ESTILOS VIDEO*********/
+
+ iframe {
+   border: none;
+ }
+
+ /****************************FOOTER*************************************/
+
+ footer {
+   position: relative;
+   top: 527px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: #333447;
+   color: white;
+   width: 100%;
+   margin: 0;
+ }
+
+ footer ul {
+   list-style: none;
+ }
+
+ /***************************LOGOS**************************/
+
+ .logo-store {
+   width: 120px;
+   height: 40px;
+ }
+
+ .log-in, .partner, .learn, .logos {
+   width: 200px;
+   display: inline-block;
+   margin: 40px;
+ }
+
+ /******+++++++++++++++++******FOOTER LISTAS DE OPCIONES***************/
+
+ footer h2 {
+   text-transform: uppercase;
+   font-size: 16px;
+   margin-left: 20px;
+   color: #BFC7D9;
+ }
+
+ footer li {
+   margin: 20px;
+   font-size: 14px;
+ }
+
+ /****************************HOVER******************************/
+
+ footer li:hover, .copyrigth a:hover {
+   color: #FF00BF;
+   text-decoration: underline;
+   cursor: pointer;
+ }
+
+ /************************LINEA DIVISORA********************/
+
+ hr {
+   margin-top: 2px;
+   margin-left: 250px;
+   width: 800px;
+ }
+
+ /************************ICONOS REDES SOCIALES********************/
+
+ i {
+   font-size: 20px;
+   position: relative;
+   top: 7px;
+   left: 0px;
+   margin: 0;
+ }
+
+ .icon {
+   cursor: pointer;
+   width: 35px;
+   height: 35px;
+   border-radius: 100px;
+   border: 2px solid white;
+   display: inline-block;
+   margin: 40px;
+   ;
+ }
+
+ .social {
+   text-align: center;
+ }
+
+ /************************copyrigth********************/
+
+ .copyrigth {
+   width: 100%;
+   height: 60px;
+   text-align: center;
+ }
+
+ .copyrigth p {
+   display: inline-block;
+   margin: 10px;
+   font-size: 14px;
+ }
+
+ .copyrigth a {
+   text-decoration: none;
+   color: inherit;
+ }
